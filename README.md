@@ -1,0 +1,3 @@
+# Leetcode
+
+my leetcode trip ~
