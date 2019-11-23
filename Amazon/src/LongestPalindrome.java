@@ -69,6 +69,7 @@ Note: "aba" is also a valid answer.
             dp[right][right] = true;
             for(left = 0; left < right; left++){
                 dp[left][right] = (right- left < 2 || dp[left+1][right-1]) && s.charAt(left) == s.charAt(right);
+                //update length
                 if(dp[left][right] && len < right - left + 1){
                     len = right - left + 1;
                     leftIndex = left;

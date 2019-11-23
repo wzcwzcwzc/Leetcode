@@ -25,6 +25,8 @@ public class mapCommonTool {
         for(String key : map.keySet()){
             map.get(key);
         }
+
+        map.remove("wang");
     }
 
 
