@@ -19,6 +19,7 @@ public class MinStack {
     }
 
     public void pop() {
+        // pop twice
         if(min == stack.pop()){
             min = stack.pop();
         }

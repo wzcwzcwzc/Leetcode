@@ -1,7 +1,9 @@
 public class CoinChange {
 
     /*
-    * You are given coins of different denominations and a total amount of money amount. Write a function to compute the fewest number of coins that you need to make up that amount. If that amount of money cannot be made up by any combination of the coins, return -1.
+    * You are given coins of different denominations and a total amount of money amount.
+    * Write a function to compute the fewest number of coins that you need to make up that amount.
+    * If that amount of money cannot be made up by any combination of the coins, return -1.
 
 Example 1:
 
@@ -28,7 +30,9 @@ Output: -1
         * suppose x = 11, if we choose one 5 coin, the rest is dp[6], so
         * the total coin number is dp[11-coin(5)]+1 = dp[6]+1
         * */
-        if (coins.length == 0) return -1;
+        if (coins.length == 0) {
+            return -1;
+        }
 
         int[] dp = new int[amount + 1];
         dp[0] = 0;

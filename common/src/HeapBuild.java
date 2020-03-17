@@ -20,6 +20,8 @@ public class HeapBuild {
         pq.add(6);
         pq.add(12);
 
+        System.out.println(pq.peek());
+
         //minHeap o1-o2 smallest element is on top of heap
         //maxHeap o2-o1 biggest element is on top of heap
 

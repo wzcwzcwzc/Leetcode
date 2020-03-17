@@ -27,6 +27,7 @@ public class mapCommonTool {
         }
 
         map.remove("wang");
+        System.out.println(map.containsValue(1));
     }
 
 
